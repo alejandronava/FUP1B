@@ -7,7 +7,7 @@ int main()
 	scanf("%d",&N1);
 	if(N1>=0 && N1<=12)
 	{
-			printf("Eres un niño");		
+			printf("Eres un niÃ±o");		
 	}
 	else
 	{
