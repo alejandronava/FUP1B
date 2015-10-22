@@ -1,5 +1,5 @@
 #include<stdio.h>//libreria de E/S
-/*programa que haga las operaciones
+/*programa que calcula la propina y la cantidad que le toca a cada persona 
 */
 int resultado1;
 int resultado2;
