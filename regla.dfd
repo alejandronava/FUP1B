@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+42
+'Programa para realizar una regla de tres'
+4
+1
+19
+'Inserta un numero'
+5
+1
+2
+N1
+4
+1
+18
+'Dame otro numero'
+5
+1
+2
+N2
+4
+1
+26
+'Inserta un tercer numero'
+5
+1
+2
+N3
+6
+1
+9
+resultado
+8
+N3*N2/N1
+4
+1
+48
+'El resultado de la regla de tres es', resultado
+1

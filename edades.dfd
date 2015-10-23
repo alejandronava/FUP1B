@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+65
+'Programa para saber que tipo de persona soy dependiendo la edad'
+4
+1
+17
+'Inserta tu edad'
+5
+1
+2
+N1
+7
+0
+1
+18
+(N1>=0)AND(N1<=12)
+7
+0
+1
+19
+(N1>=13)AND(N1<=18)
+7
+0
+1
+19
+(N1>=19)AND(N1<=29)
+7
+0
+1
+19
+(N1>=30)AND(N1<=60)
+7
+0
+1
+8
+(N1>=60)
+13
+13
+4
+1
+22
+'eres un adulto mayor'
+13
+4
+1
+16
+'eres un adulto'
+13
+13
+4
+1
+15
+'eres un joven'
+13
+13
+4
+1
+21
+'eres un adolescente'
+13
+13
+4
+1
+14
+'eres un niño'
+13
+1
