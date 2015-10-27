@@ -15,10 +15,10 @@ int main()
 		printf("Eres un adolescente");
 	}
 	{
-		if(N1>=19 and N1<=29)
+		if(N1>=19 && N1<=29)
 		printf("Eres un joven");
 		{
-		if(N1>=30 and N1<=59)
+		if(N1>=30 && N1<=59)
 		printf("Eres un adulto");	
 		}
 		{
