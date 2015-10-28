@@ -69,7 +69,8 @@ int main()
 	printf("%d\n",N2); 
     printf("%d\n",N1); 
     } 
-	}
 	
+	
+}
 }
 }

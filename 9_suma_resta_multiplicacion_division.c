@@ -1,20 +1,48 @@
-//programa que sume,reste,multiplique y divida
-#include<stdio.h>//libreria de E/S
-int resultado;
-int numero1;
-int numero2;
-int main()
+#include <stdio.h>//Libreria de E/S
+
+int main() 
+{ 
+    int N1;
+    int N2;
+    int N3;
+    int N4;
+    int N5;
+     
+    {  
+     
+    printf("Dame un numero: "); 
+    scanf("%d",&N1); 
+    printf("Dame un segundo numero: "); 
+    scanf("%d",&N2); 
+    printf("Dame un tercer numero: "); 
+    scanf("%d",&N3); 
+    printf("Dame un cuarto numero:")
+    scanf("%d",&N4);
+    printf("Dame un quinto numero:")
+    scanf("%d",&N5);
+
+
+    
+    printf("El numero mayor es: ");
+   
+    if(N1>N2>N3>N4>N5)
+    printf("Es el numero mayor: ");
 {
-	printf("dame un  numero");
-	scanf("%d",&numero1);
-	printf("dame un numero");
-	scanf("%d",&numero2);
-	resultado=numero1+numero2;
-	printf("\nla suma es %d",resultado);
-	resultado=numero1-numero2;
-	printf("\nla resta es %d",resultado);
-	resultado=numero1*numero2;
-	printf("\nla multiplicacion es %d",resultado);
-	resultado=numero1/numero2;
-    printf("\nla division es %d",resultado);
+	
+    if(N2>N1>N3>N4>N5)
+    printf("Es el numero mayor: ");
 }
+    if(N3>N1>N2>N4>N5)
+    printf("Es el numero mayor: ");
+{
+ 
+    if(N4>N1>N2>N3>N5)
+    printf("Es el numero mayor: ");
+}
+    
+}
+    
+    
+    
+    
+	
