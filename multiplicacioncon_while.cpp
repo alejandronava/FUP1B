@@ -3,28 +3,29 @@ int main()
 {
 
 
-int a;
 int i;
+int suma;
 int final;
 int num1,num2;
-i=1;
-a=0;
+
 printf("\nIngresa un numero\n" );
 scanf("%d",&num1);
 printf("\nIngresa un segundo numero\n" );
 scanf("%d",&num2);
-
-while(i<=num1)
+i=1;
+suma=0;
+while(i<=num2)
 {
-      a=num1*num2;
-      printf("\nEl resultado es: %d",a);
-      i=num1+num1;
-	  printf("\nla suma es: %d",i);
-	return 0;
+	suma=num1*num2;
+     suma=suma+num1;
+     i=i+1;
+    
+}
+printf("%d",suma);
 }
 
 
 
-}
+
 
 
