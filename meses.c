@@ -4,24 +4,25 @@ int mes;
 int main()
 	{
 		printf("Programa que determine los meses\n");
-		printf("\DIME UN NUMERO DEL 1 AL 12 Y TE DIRE QUE MES ES:");
+		printf("DIME UN NUMERO DEL 1 AL 12 Y TE DIRE QUE MES ES:");
 	scanf("%d",&mes);
 	switch(mes)
 	{
+		
 		case 1: {
-			printf("enero");
+			mes=31
 			break;
 		}
 		case 2: {
-			printf("febrero");
+			mes=29
 			break;
 		}
 		case 3:{
-			printf("marzo");
+			mes=31
 			break;
 		}
 		case 4:{
-			printf("abril");
+			mes=30
 			break;
 		}
 		case 5:{
@@ -56,7 +57,7 @@ int main()
 			printf("diciembre");
 			break;
 		}
-		default: { printf("no es un mes");
+		default: { printf("");
 		        }break;
 	}	
 		

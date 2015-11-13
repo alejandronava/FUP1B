@@ -24,11 +24,11 @@ do
 	resultado=numero1/numero2;
     printf("\nLa division es %d\n",resultado);
     printf("\n¿Quieres seguir haciendo operaciones?\n");
-	printf("Inserte el numero de su respuesta\n 1-SI\n 2-NO\n");
+	printf("Ingresa el numero1\n 1-SI\n");
 	scanf("%d",&r);
 }
 
-    while(r==1);
+    while(r==2);
 }
  
 
