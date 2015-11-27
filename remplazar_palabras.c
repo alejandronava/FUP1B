@@ -1,11 +1,11 @@
 //PROGRAMA QUE REMPLAZA LA LETRA QUE DESEAS POR OTRA QUE INGRESES
 #include<stdio.h>
-
-int main(){
-char cadena[10];
-char B;
-char C;
+char cadena[20],B,C;
 int i;
+int main(){
+
+
+
 	
 	printf("ESTE ES UN PROGRAMA QUE REMPLAZA LA LETRA QUE DESEAS POR OTRA\n\n");
 	printf("Inserta una palabra:\n");
@@ -14,6 +14,7 @@ int i;
 	scanf("%s",&B);
 	printf("Inserta la letra que deseas insertar en lugar de la otra:\n");
 	scanf("%s",&C);
+	
 	for(i=0;cadena[i]!=' ';i++)
 	{
 		if(cadena[i]==B)
@@ -21,6 +22,7 @@ int i;
 			cadena[i]=C;
 		}
 	}
+	
 	printf("La palabra con las letras sustituidas es esta:\n");
 	printf("%s",cadena);
 }
